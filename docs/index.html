@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>RoboSimGS</title>
+<!--   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">High-Fidelity Simulated Data Generation for Real-World Zero-Shot Robotic Manipulation Learning with Gaussian Splatting</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=ymXRJBYAAAAJ&hl=zh-CN" target="_blank">Haoyu Zhao</a><sup>*1,2</sup>,</span>
+                <span class="author-block">
+                  <a target="_blank">Cheng Zeng</a><sup>*5</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Linghao Zhuang</a><sup>*1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Yaxi Zhao</a><sup>2,3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="_blank" target="_blank">Shengke Xue</a><sup>2,3</sup>,
+                    </span>
+                    <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=S2d7hPkAAAAJ" target="_blank">Hao Wang</a><sup>6</sup>,
+                      </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=fZuqWe0AAAAJ&hl=zh-CN&oi=ao" target="_blank">Xingyue Zhao</a><sup>2</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=ouSpgSkAAAAJ&hl=zh-CN&oi=ao" target="_blank">Zhongyu Li</a><sup>4</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="_blank" target="_blank">Kehan Li</a><sup>2,3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=mhpkWSYAAAAJ&hl=zh-CN&oi=ao" target="_blank">Siteng Huang</a><sup>†2,3,7</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a target="_blank">Mingxiu Chen</a><sup>2,3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="_blank" target="_blank">Xin Li</a><sup>2,3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=7LhjCn0AAAAJ&hl=zh-CN&oi=ao" target="_blank">Deli Zhao</a><sup>2,3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Hua Zou</a><sup>†1</sup>
+                  </span>
+                    </span>
+                  </div>
+
+<!--                   <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Wuhan University, <sup>2</sup>DAMO Academy, Alibaba Group, <sup>3</sup>Hupan Lab , <sup>4</sup>Zhejiang University, <sup>5</sup>Tsinghua University<br></span>
+                  </div> -->
+                  <div class="author-block"> <!-- 同样，外层用 div 可能更合适 -->
+                  <span class="affiliation-line">
+                    <sup>*</sup>Equal contribution, 
+                    <sup>†</sup>Corresponding authors
+                </div>
+
+            <div class="flex-break"></div>
+            
+                <div class="author-block"> <!-- 同样，外层用 div 可能更合适 -->
+                  <span class="affiliation-line">
+                    <sup>1</sup>WHU, 
+                    <sup>2</sup>DAMO Academy, Alibaba Group,
+                    <sup>3</sup>Hupan Lab,
+                    <sup>4</sup>CUHK, 
+                  </span>
+                  <span class="affiliation-line">
+                    <sup>5</sup>THU, 
+                    <sup>6</sup>HUST,
+                    <sup>7</sup>ZJU
+                  </span>
+                </div>
+            
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2508.08896" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+<!--                     <span class="link-block">
+                      <a href="static/pdfs/SG-GS.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Maxwell-Zhao/RoboSimGS/" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+<!--                 <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-fluid">
+    <div class="hero-body" style="display: flex; justify-content: center; align-items: center;">
+      <!-- 设置容器为16:9比例 -->
+      <div style="position: relative; width: 60%; aspect-ratio: 16 / 9;">
+        <iframe id="tree" 
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="https://www.youtube.com/embed/nvUXAovzc6Q?si=BanbCfIjESVUFk3U" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section class="section hero is-light pb-0">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The scalability of robotic learning is fundamentally bottlenecked by the significant cost and labor of real-world data collection. While simulated data offers a scalable alternative, it often fails to generalize to the real world due to significant gaps in visual appearance, physical properties, and object interactions. To address this, we propose RoboSimGS, a novel Real2Sim2Real framework that converts multi-view real-world images into scalable, high-fidelity, and physically interactive simulation environments for robotic manipulation. Our approach reconstructs scenes using a hybrid representation: 3D Gaussian Splatting (3DGS) captures the photorealistic appearance of the environment, while mesh primitives for interactive objects ensure accurate physics simulation. Crucially, we pioneer the use of a Multi-modal Large Language Model (MLLM) to automate the creation of physically plausible, articulated assets. The MLLM analyzes visual data to infer not only physical properties (e.g., density, stiffness) but also complex kinematic structures (e.g., hinges, sliding rails) of objects. We demonstrate that policies trained entirely on data generated by RoboSimGS achieve successful zero-shot sim-to-real transfer across a diverse set of real-world manipulation tasks. Furthermore, data from RoboSimGS significantly enhances the performance and generalization capabilities of SOTA methods. Our results validate RoboSimGS as a powerful and scalable solution for bridging the sim-to-real gap.
+          </p>
+        </div>
+        <!-- 在这里插入 Pipeline 图 -->
+        <figure class="image is-centered">
+          <img src="static/images/pipeline1.png" alt="Pipeline">
+          <figcaption class="has-text-centered">Figure 1: Overview of the proposed pipeline.</figcaption>
+        </figure>
+        <figure class="image is-centered">
+          <img src="static/images/tasks.png" alt="Tasks">
+          <figcaption class="has-text-centered">Figure 2: Task illustration.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Comparison over Real Data</h2>
+        <div class="content has-text-justified">
+          <p>
+      We compare the real-world performance of policies trained on varying amounts of real data (50, 100 demonstrations) versus those trained exclusively on our simulated data (50 to 500 demonstrations). The policy trained on just 200 of demonstrations by RoboSimGS achieves performance comparable to one trained on 100 real-world demonstrations.
+          </p>
+        </div>
+        <!-- 在这里插入 Pipeline 图 -->
+        <figure class="image is-centered">
+          <img src="static/images/simulated_data.png" alt="Pipeline">
+          <figcaption class="has-text-centered">Figure 3: Comparison over real data and data scaling analysis.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End paper abstract -->
+
+
+<!-- ============================================================================== -->
+
+
+  
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Novel Pose</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+      <div class="item" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <video controls autoplay loop muted style="max-width: 50%; height: auto;">
+        <source src="static/videos/banner_video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        <h2 class="subtitle has-text-centered">First video description.</h2>
+      </div>
+      <div class="item" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <video controls autoplay loop muted style="max-width: 50%; height: auto;">
+        <source src="static/videos/banner_video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        <h2 class="subtitle has-text-centered">First video description.</h2>
+      </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+
+<!-- Youtube video -->
+
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+
+<!-- End video carousel -->
+
+
+<!-- Paper poster -->
+
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+      @article{zhao2024hfgs,
+        title={Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors},
+        author = {Zhao, Haoyu and Zhuang, Linghao and Zhao, Xingyue and Zeng, Cheng and Xu, Haoran and Jiang, Yuming and Cen, Jun and Wang, Kexiang and Guo, Jiayan and Huang, Siteng and Li, Xin and Zhao, Deli and Zou, Hua},
+        journal={arXiv preprint arXiv:2508.08896},
+        year={2025}
+      }  
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
