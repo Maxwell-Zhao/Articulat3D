@@ -68,6 +68,7 @@
                   <span class="author-block">
                     <a href="_blank" target="_blank">Linghao Zhuang</a><sup>1</sup>,
                     </span>
+                     <br>
                     <span class="author-block">
                     <a href="https://scholar.google.com/citations?hl=zh-CN&user=S2d7hPkAAAAJ" target="_blank">Siteng Huang</a><sup>5</sup>,
                       </span>
@@ -178,12 +179,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-             Building high-fidelity digital twins of articulated objects from visual data remains a central challenge. Existing approaches depend on multi-view captures of the object in discrete, static states, which severely constrains their real-world scalability. In this paper, we introduce Articulat3D, a novel framework that constructs such digital twins from casually captured monocular videos by jointly enforcing explicit 3D geometric and motion constraints. We first propose Motion Prior–Driven Initialization, which leverages 3D point tracks to exploit the low-dimensional structure of articulated motion. By modeling scene dynamics with a compact set of motion bases, we facilitate soft decomposition of the scene into multiple rigidly-moving groups. Building on this initialization, we introduce Geometric and Motion Constraints Refinement, which enforces physically plausible articulation through learnable kinematic primitives parameterized by a joint axis, a pivot point, and per-frame motion scalars, yielding reconstructions that are both geometrically accurate and temporally coherent. Extensive experiments demonstrate that Articulat3D achieves state-of-the-art performance on synthetic benchmarks and real-world casually captured monocular videos, significantly advancing the feasibility of digital twin creation under uncontrolled real-world conditions.
+             Building high-fidelity digital twins of articulated objects from visual data remains a central challenge. Existing approaches depend on multi-view captures of the object in discrete, static states, which severely constrains their real-world scalability. In this paper, we introduce Articulat3D, a novel framework that constructs such digital twins from casually captured monocular videos by jointly enforcing explicit 3D geometric and motion constraints. We first propose Motion Prior–Driven Initialization, which leverages 3D point tracks to exploit the low-dimensional structure of articulated motion. By modeling scene dynamics with a compact set of motion bases, we facilitate soft decomposition of the scene into multiple rigidly-moving groups. Building on this initialization, we introduce Geometric and Motion Constraints Refinement, which enforces physically plausible articulation through learnable kinematic primitives parameterized by a joint axis, a pivot point, and per-frame motion scalars, yielding reconstructions that are both geometrically accurate and temporally coherent. Extensive experiments demonstrate that Articulat3D achieves state-of-the-art performance on synthetic benchmarks and real-world casually captured monocular videos, advancing the feasibility of digital twin creation under real-world conditions.
           </p>
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
-          <img src="static/images/pipeline1.png" alt="Pipeline">
+          <img src="static/images/pipeline.png" alt="Pipeline">
           <figcaption class="has-text-centered">Figure 1: Overview of the proposed pipeline.</figcaption>
         </figure>
       </div>
@@ -196,7 +197,7 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Comparison over Real Data</h2>
+        <h2 class="title is-3">Comparison with baselines</h2>
         <div class="content has-text-justified">
           <p>
                Our method consistently achieves state-of-the-art (SOTA) performance across all datasets and evaluation metrics.
@@ -204,7 +205,7 @@
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
-          <img src="static/images/simulated_data.png" alt="Pipeline">
+          <img src="static/images/comparison.png" alt="Pipeline">
           <figcaption class="has-text-centered">Tab 1:  Comparison of Articulat3D with state-of-the-art baselines.</figcaption>
         </figure>
       </div>
