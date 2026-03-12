@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>RoboSimGS</title>
+  <title>Articulat3D</title>
 <!--   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,52 +52,33 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">High-Fidelity Simulated Data Generation for Real-World Zero-Shot Robotic Manipulation Learning with Gaussian Splatting</h1>
+            <h1 class="title is-1 publication-title">Articulat3D: Reconstructing Articulated Digital Twins From Monocular Videos with Geometric and Motion Constraints</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=ymXRJBYAAAAJ&hl=zh-CN" target="_blank">Haoyu Zhao</a><sup>*1,2</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=ymXRJBYAAAAJ&hl=zh-CN" target="_blank">Lijun Guo</a><sup>*1</sup>,</span>
                 <span class="author-block">
-                  <a target="_blank">Cheng Zeng</a><sup>*5</sup>,</span>
+                  <a target="_blank">Haoyu Zhao</a><sup>*1</sup>,</span>
                   <span class="author-block">
-                    <a target="_blank">Linghao Zhuang</a><sup>*1</sup>,
+                    <a target="_blank">Xingyue Zhao</a><sup>3</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="" target="_blank">Yaxi Zhao</a><sup>2,3</sup>,
+                    <a href="" target="_blank">Rong Fu</a><sup>4</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="_blank" target="_blank">Shengke Xue</a><sup>2,3</sup>,
+                    <a href="_blank" target="_blank">Linghao Zhuang</a><sup>1</sup>,
                     </span>
                     <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=S2d7hPkAAAAJ" target="_blank">Hao Wang</a><sup>6</sup>,
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=S2d7hPkAAAAJ" target="_blank">Siteng Huang</a><sup>5</sup>,
                       </span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=fZuqWe0AAAAJ&hl=zh-CN&oi=ao" target="_blank">Xingyue Zhao</a><sup>2</sup>,
+                    <a href="https://scholar.google.com/citations?user=fZuqWe0AAAAJ&hl=zh-CN&oi=ao" target="_blank">Zhongyu Li</a><sup>2</sup>,
                   </span>
                   <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=ouSpgSkAAAAJ&hl=zh-CN&oi=ao" target="_blank">Zhongyu Li</a><sup>4</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="_blank" target="_blank">Kehan Li</a><sup>2,3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=mhpkWSYAAAAJ&hl=zh-CN&oi=ao" target="_blank">Siteng Huang</a><sup>†2,3,7</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a target="_blank">Mingxiu Chen</a><sup>2,3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="_blank" target="_blank">Xin Li</a><sup>2,3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=7LhjCn0AAAAJ&hl=zh-CN&oi=ao" target="_blank">Deli Zhao</a><sup>2,3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=6JMV8NEAAAAJ" target="_blank">Hua Zou</a><sup>†1</sup>
+                    <a href="https://scholar.google.com/citations?user=ouSpgSkAAAAJ&hl=zh-CN&oi=ao" target="_blank">Hua Zou</a><sup>†1</sup>,
                   </span>
                     </span>
                   </div>
-
 <!--                   <div class="is-size-5 publication-authors">
                     <span class="author-block"><sup>1</sup>Wuhan University, <sup>2</sup>DAMO Academy, Alibaba Group, <sup>3</sup>Hupan Lab , <sup>4</sup>Zhejiang University, <sup>5</sup>Tsinghua University<br></span>
                   </div> -->
@@ -112,14 +93,10 @@
                 <div class="author-block"> <!-- 同样，外层用 div 可能更合适 -->
                   <span class="affiliation-line">
                     <sup>1</sup>WHU, 
-                    <sup>2</sup>DAMO Academy, Alibaba Group,
-                    <sup>3</sup>Hupan Lab,
-                    <sup>4</sup>CUHK, 
-                  </span>
-                  <span class="affiliation-line">
-                    <sup>5</sup>THU, 
-                    <sup>6</sup>HUST,
-                    <sup>7</sup>ZJU
+                    <sup>2</sup>CUHK,
+                    <sup>3</sup>CAMS & PUMC,
+                    <sup>4</sup>UM, 
+                    <sup>4</sup>ZJIU
                   </span>
                 </div>
             
@@ -159,15 +136,15 @@
                 </span>
 
                 <!-- ArXiv abstract Link -->
-<!--                 <span class="link-block">
+                <span class="link-block">
                   <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-images"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Dataset</span>
                 </a>
-              </span> -->
+              </span>
             </div>
           </div>
         </div>
@@ -201,17 +178,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The scalability of robotic learning is fundamentally bottlenecked by the significant cost and labor of real-world data collection. While simulated data offers a scalable alternative, it often fails to generalize to the real world due to significant gaps in visual appearance, physical properties, and object interactions. To address this, we propose RoboSimGS, a novel Real2Sim2Real framework that converts multi-view real-world images into scalable, high-fidelity, and physically interactive simulation environments for robotic manipulation. Our approach reconstructs scenes using a hybrid representation: 3D Gaussian Splatting (3DGS) captures the photorealistic appearance of the environment, while mesh primitives for interactive objects ensure accurate physics simulation. Crucially, we pioneer the use of a Multi-modal Large Language Model (MLLM) to automate the creation of physically plausible, articulated assets. The MLLM analyzes visual data to infer not only physical properties (e.g., density, stiffness) but also complex kinematic structures (e.g., hinges, sliding rails) of objects. We demonstrate that policies trained entirely on data generated by RoboSimGS achieve successful zero-shot sim-to-real transfer across a diverse set of real-world manipulation tasks. Furthermore, data from RoboSimGS significantly enhances the performance and generalization capabilities of SOTA methods. Our results validate RoboSimGS as a powerful and scalable solution for bridging the sim-to-real gap.
+             Building high-fidelity digital twins of articulated objects from visual data remains a central challenge. Existing approaches depend on multi-view captures of the object in discrete, static states, which severely constrains their real-world scalability. In this paper, we introduce Articulat3D, a novel framework that constructs such digital twins from casually captured monocular videos by jointly enforcing explicit 3D geometric and motion constraints. We first propose Motion Prior–Driven Initialization, which leverages 3D point tracks to exploit the low-dimensional structure of articulated motion. By modeling scene dynamics with a compact set of motion bases, we facilitate soft decomposition of the scene into multiple rigidly-moving groups. Building on this initialization, we introduce Geometric and Motion Constraints Refinement, which enforces physically plausible articulation through learnable kinematic primitives parameterized by a joint axis, a pivot point, and per-frame motion scalars, yielding reconstructions that are both geometrically accurate and temporally coherent. Extensive experiments demonstrate that Articulat3D achieves state-of-the-art performance on synthetic benchmarks and real-world casually captured monocular videos, significantly advancing the feasibility of digital twin creation under uncontrolled real-world conditions.
           </p>
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
           <img src="static/images/pipeline1.png" alt="Pipeline">
           <figcaption class="has-text-centered">Figure 1: Overview of the proposed pipeline.</figcaption>
-        </figure>
-        <figure class="image is-centered">
-          <img src="static/images/tasks.png" alt="Tasks">
-          <figcaption class="has-text-centered">Figure 2: Task illustration.</figcaption>
         </figure>
       </div>
     </div>
@@ -226,13 +199,13 @@
         <h2 class="title is-3">Comparison over Real Data</h2>
         <div class="content has-text-justified">
           <p>
-      We compare the real-world performance of policies trained on varying amounts of real data (50, 100 demonstrations) versus those trained exclusively on our simulated data (50 to 500 demonstrations). The policy trained on just 200 of demonstrations by RoboSimGS achieves performance comparable to one trained on 100 real-world demonstrations.
+               Our method consistently achieves state-of-the-art (SOTA) performance across all datasets and evaluation metrics.
           </p>
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
           <img src="static/images/simulated_data.png" alt="Pipeline">
-          <figcaption class="has-text-centered">Figure 3: Comparison over real data and data scaling analysis.</figcaption>
+          <figcaption class="has-text-centered">Tab 1:  Comparison of Articulat3D with state-of-the-art baselines.</figcaption>
         </figure>
       </div>
     </div>
